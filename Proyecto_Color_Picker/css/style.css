@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap"); /*fonts.google.com fuentes de letras, link es para html, import es para css*/
+
+html,
+body {
+  margin: 0; /*margen para los 4 lados*/
+  padding: 0; /*Espacio de relleno a todos lados del doc*/
+  font-family: "Lato", sans-serif; /*Fuente de las letras*/
+}
+
+h2 {
+  text-align: center; /*justificar al centro*/
+}
+
+/*forma de referenciar los div por clase*/
+.salida {
+  text-transform: uppercase; /*convierte todo en mayusculas*/
+  text-align: center; /*Centra el texto*/
+  font-weight: bold; /*Resalta mas el texto*/
+  width: 30%; /*Definicion de uso de documento a lo largo(longitud)*/
+  height: 8rem; /*Definicion de uso de documento a lo ancho(altura)*/ /*1rem son 16px*/
+  margin: 1rem 35%; /*define la posicion,( modifica la distancia arriba y abajo (Y), modifica la distancia de derecha a izquierda (X) de manera equitativa)*/
+  border: 1px solid black; /*dibuja un borde de 1 pixel de ancho y de color negro*/
+}
+/*forma de referenciar los div por clase*/
+.color-div {
+  text-align: center; /*justificar al centro*/
+}
